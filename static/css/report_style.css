@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+@import url(https://fonts.googleapis.com/earlyaccess/lateef.css);
+@import url(https://fonts.googleapis.com/earlyaccess/amiri.css);
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+@import url(https://fonts.googleapis.com/earlyaccess/lateef.css);
+@import url(https://fonts.googleapis.com/earlyaccess/scheherazade.css);
+@import url(https://fonts.googleapis.com/earlyaccess/thabit.css);
+@import url(https://fontlibrary.org//face/layla-diwani);
+
+.page{
+  /*  margin-top:-50px !important; */
+font-family: 'Almarai','Lato' !important;   /* Arabic Font Almarai --install module  [nati_arabic_font]*/
+}
+body .header {
+font-family: 'Almarai','Lato' !important;   /* Arabic Font Almarai --install module  [nati_arabic_font]*/
+}
+.droid-arabic-kufi{font-family: 'Droid Arabic Kufi', serif;}
+
+.amiri{font-family: 'Amiri', serif;}
+.arial{font-family: "Lato","Lucida Grande", Helvetica, Verdana, Arial;}
+.droid-arabic-kufi{font-family: 'Droid Arabic Kufi', serif;}
+.droid-arabic-naskh{font-family: 'Droid Arabic Naskh', serif;}
+.line-19 {
+	font-family: "Arial Narrow", Arial, sans-serif;
+}
+.lateef{font-family: 'Lateef', serif;}
+.scheherazade{font-family: 'Scheherazade', serif;}
+.thabit{font-family: 'Thabit', serif;}
+
+tr.no_border td {
+  border: 0;
+}
+
+.invoice_main_body tr td{
+  border: 0;
+}
+.scheherazade{font-family: 'Scheherazade', serif;}
+.couriers{font-family: 'Courier New', Courier, monospace;}
+.courier{
+	font-family: 'Courier New',Courier,Freemono,'Nimbus Mono L',monospace;
+}
+.lateef{font-family: 'Lateef', serif;}
+.invoice_main_header tr{
+background-color: #eaeaea;
+}
+.bg-header{
+background-color: #eaeaea;
+}
+.bg-light {
+    background-color: #f6f6f6;
+}
+.inv_border{
+
+}
+
+
+
+.flex-between {
+    display: -webkit-box; /* wkhtmltopdf uses this one */
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: justify; /* wkhtmltopdf uses this one */
+    -webkit-justify-content: space-between;
+            justify-content: space-between;
+}
+.flex-end {
+    display: -webkit-box; /* wkhtmltopdf uses this one */
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: end; /* wkhtmltopdf uses this one */
+    -webkit-justify-content: end;
+            justify-content: end;
+}
+.flex-between .lbl-left{
+  /*  width:200px;*/
+}
+.flex-between .lbl-right{
+    text-align: right;
+    /*  width:200px;*/
+}
+.flex-between .lbl-center{
+    text-align: right;
+      /*  width:200px;*/
+}
+.flex-betweenxx :last-child{
+    text-align: right;
+}

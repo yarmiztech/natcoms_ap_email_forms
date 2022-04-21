@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+<!--    <report id="natcom_natcom_jan_view"-->
+<!--      		model="account.move"-->
+<!--      		string="Natcom PDF Mou"-->
+<!--      		report_type="qweb-pdf"-->
+<!--      		name="natcom_jan_pdf.natcom_jan_view"-->
+<!--      		file="natcom_jan_pdf.natcom_jan_view"-->
+<!--			 attachment_use="True"-->
+<!--    attachment="(object.state in ('open','paid')) and-->
+<!--        ('INV'+(object.number or '').replace('/','')+'.pdf')"-->
+<!--    />-->
+<!--	<record id="natcom_dec_last.natcom_header_dec_view" model="ir.actions.report">-->
+<!--        <field name="name">Report Name (new Font)</field>-->
+<!--        <field name="model">account.move</field>-->
+<!--        <field name="report_type">qweb-pdf</field>-->
+<!--        <field name="report_name">natcom_dec_last.natcom_dec_header_view</field>-->
+<!--        <field name="report_file">natcom_dec_last.natcom_dec_header_view</field>-->
+<!--        <field name="binding_model_id" ref="account.model_account_move"/>-->
+<!--        <field name="binding_type">report</field>-->
+<!--         <field name="attachment">'NATCOM-' + object.name + '.pdf'</field>-->
+<!--            <field name="attachment_use">True</field>-->
+<!--    </record>-->
+<!--      <report id="natcom_header_dec_view"-->
+<!--      		model="account.move"-->
+<!--      		string="Natcom Header PDF"-->
+<!--      		report_type="qweb-pdf"-->
+<!--      		name="natcom_dec_last.natcom_dec_header_view"-->
+<!--      		file="natcom_dec_last.natcom_dec_header_view"-->
+<!--    />-->
+    <record id="natcom_jan_pdf.natcom_natcom_jan_view" model="ir.actions.report">
+        <field name="name">NATCOM PDF APRL</field>
+        <field name="model">account.move</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">natcom_jan_pdf.natcom_jan_view</field>
+        <field name="print_report_name">'Invoice - %s' % (object.name)</field>
+    </record>
+
+</odoo>

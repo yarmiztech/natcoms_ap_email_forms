@@ -1,0 +1,43 @@
+<odoo>
+    <template id="report_style_inherit" inherit_id="web.report_assets_common">
+        <xpath expr="." position="inside">
+            <link href="/natcoms_ap_email_forms/static/css/report_style.css" rel="stylesheet" type="text/css"/>
+        </xpath>
+        <xpath expr="link[last()]" position="after">
+            <link href="https://fontlibrary.org//face/layla-diwani" rel="stylesheet"/>
+        </xpath>
+    </template>
+
+    <template id="assets_backend_tabla_tickets" name="natcoms_ap_email_forms assets"
+              inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <link rel="stylesheet" href="/natcoms_ap_email_forms/static/css/report_style.css"/>
+        </xpath>
+    </template>
+    <!--    <template id="assetss_backend_" name="Custom css"-->
+    <!--              inherit_id="web.assets_backend">-->
+    <!--        <xpath expr="." position="inside">-->
+    <!--            <link rel="stylesheet"-->
+    <!--                  href="/natcoms_aprils_email_form/static/src/css/report_style.css"/>-->
+    <!--           -->
+    <!--        </xpath>-->
+    <!--    </template>-->
+
+<!--     <template id="report.style" name="style">-->
+<!--            <style type="text/css">-->
+<!--                body {-->
+<!--                color: #000 !important;-->
+<!--                }-->
+<!--                .border-black td {-->
+<!--                border-top: 1px solid black !important;-->
+<!--                }-->
+<!--                .table-condensed > thead > tr > th {-->
+<!--                border-bottom: 1px solid black !important;-->
+<!--                }-->
+<!--                .zero_min_height {-->
+<!--                min-height: 0px !important;-->
+<!--                }-->
+<!--                /* YOU CAN ADD YOUR CUSTOM CSS HERE */-->
+<!--            </style>-->
+<!--        </template>-->
+</odoo>
